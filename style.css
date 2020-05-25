@@ -1,0 +1,125 @@
+body{
+    background-color: lightblue;
+}
+.jumbotron{
+    height: 200px;
+    background-image: url(img/bg.jpg);
+    background-position: center;
+    margin-top: -60px;
+}
+
+.jumbotron h1{
+    font-size: larger;
+    margin-top: 20%;
+    font-weight: bold;
+    color: pink;
+    text-shadow: 1px 1px 5px black;
+}
+
+.biodata .no-gutters{
+    max-width: 270px;
+    margin: auto;
+    font-size: small;
+}
+
+.biodata .card-body{
+    padding: 20px 0;
+}
+
+h1{
+    margin: 40px 0 30px;
+    font-size: 30px;
+}
+
+.pendidikan h3,.pelatihan h2{
+    font-size: medium;
+}
+
+.pendidikan p,.pelatihan p{
+    font-size: small;
+}
+
+.kalimat{
+    font-size: small;
+}
+
+.pendidikan .warna1, .pendidikan .warna2{
+        height: 250px;
+        padding: 30px;
+        box-sizing:border-box;
+        margin: 3px;
+        text-align:center;
+}
+.warna1,.warna2{
+        background-color: lightpink;
+}
+
+footer{
+    position: relative;
+    right : 0;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    background-color: black;
+    padding: 10px 0 5px ;
+    color: pink;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-top: 90px;
+}
+
+.hobi p{
+    margin: 15px 0 0;
+}
+
+
+
+
+@media screen and (min-width: 760px) {
+    .jumbotron{
+        height: 500px;
+    }
+    .jumbotron h1{
+        font-size: xxx-large;
+        margin-top: 20%
+    }
+    .kalimat{
+        font-size: larger;
+    }
+    .biodata .no-gutters{
+        min-width: 750px;
+        margin: auto;
+        font-size: medium;
+    }
+    .biodata table td{
+        padding: 7px 10px;
+    }
+    h1{
+        margin: 40px 0 30px;
+        font-size: xxx-large;
+    }
+
+    .pendidikan h3
+        font-size: larger;
+    }
+
+    .pelatihan h2{
+        font-size: x-large;
+    }
+
+    .pendidikan p, .pelatihan p{
+        font-size: medium;
+    }
+    .pendidikan .warna1, .pendidikan .warna2{
+        height: 340px;
+        padding: 30px;
+        box-sizing:border-box;
+        margin: 3px;
+    }
+    .warna1{
+        background-color: pink;
+    }
+    .warna2{
+        background-color: gray;
+    }
+}
